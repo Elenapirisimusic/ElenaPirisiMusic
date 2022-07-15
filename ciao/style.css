@@ -1,12 +1,14 @@
 
 
-header {position: static; height: 300px; background-color: #089FA4; background-image : url('https://www.canva.com/design/DAFGDb51D6I/5injVctAHe8aTyTq4IfdMA/view?utm_content=DAFGDb51D6I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview'); !important;
-	    color: white; padding: 30px 0px 0px 0px; }
+header {position: static; height: 300px; background-color: #089FA4; color: white; padding: 30px 0px 0px 0px; display: block;}
 a{color: white; text-decoration: none; height: 3px; width: 3px;}
 
 nav {margin: 0 auto; text-align: center; color: none; font-family: 'montserrat'}
 
 nav ul {list-style-type: none; margin-left: 0px !important}
+
+h1 {text-align: center !important; text-decoration: none;  color: white; font-family: 'montserrat'; font-size: 100PX; position: relative; height: 100px; margin-bottom: 80px; padding top:80px;}
+
 
 nav ul li {display: inline-block; background-color: #089FA4; padding: 20px; border-radius: 10%; text-transform:uppercase; position: relative; bottom: 20px;}
 
@@ -17,23 +19,41 @@ html{color: black; height: auto;}
 
 #footerr {height: 200px; background-color: #089FA4; color: white; position: relative; bottom: 0px;}
 
+#channels {height: 50; width: 300px; left: 50px; bottom: -80px; position: relative;}
+#youtube {height: 50; width: 50px;}
+#instagram {height: 50; width: 50px; margin-left: 4px;}
+#facebook {height: 50; width: 50px;}
+
+#formfooter{position: relative; width: 900px; height: 100px; left: 0px; margin-left: 600px; z-index: -100PX;}
+#formcaselle {position: relative; right: 0px; align-content: right;}
+#fname   {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
+#lname   {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
+#mail    {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
+#subject {width: 152px; height: 50px; color: #201CA4; font-family: 'montserrat'; top: 23px; position: relative;}
+#submit  {width: 150px; height: 50px; background-color: #201CA4; color: white; font-family: 'montserrat'; border-radius: 10%;}
+
+#seguimi{font-family: 'montserrat'; font-size: 30px; color: white; font-weight: bold; position: relative; top: 40px; margin-left: 50px; width: 200PX;}
+#contattami {font-family: 'montserrat'; font-size: 30px; color: white; font-weight: bold; position: relative; top: 40px; margin-left: 350px; width: 200PX;}
+.skills {display: inline-block;}
+
 body {margin: auto; }
 
 ---------------------------------------------
-Homepage
+HOMEPAGE
 
-#citazione{height: 400px; width: 1000px; text-align: center; margin: auto;}
-cite {margin: 0px; text-align: center; color: black !important; position: relative; top: 180px; font-size: 30px; font-family:'montserrat';}
-#cornice {background-color: #089FA4; height: 560px; width: 990px; margin: auto;}
+#citazione{height: 400px; width: auto; margin-right: auto; margin-left: auto; position: relative; top: 100px; display: block;}
+cite {text-align: center; color: black !important; position: relative; top: 10px; font-size: 30px; font-family:'montserrat'; margin-right: auto; margin-left: auto; margin-bottom: 200px; margin-top: 200px; display: block; }
+#cornice {background-color: #089FA4; height: 560px; width: 990px; margin-left: auto: margin-right: auto; z-index: -1; display: block;}
 
-#videohomepage {margin: auto; width: 1000px;}
-#videoelena {align-content: center;}
+#videohomepage {margin: auto !important; margin-right: auto; margin-left: auto; display: block; align-content: center;  height: 570px;}
+#videoelena {margin-right: auto; margin-left: auto; display: block; align-content: center; margin}
+
 #musica { color: none; position: relative; object-position: center; bottom: 800px; left: 400px; width: 50px;
   height: 50px;
   border-radius: 100%}
 
 #percorsostudititolo{height: 100px; width: 1000px; text-align: center; margin: auto; font-size: 50px; color: #089FA4; margin-top: 100px !important; margin-bottom: 100px !important;}
-#scuole{height: 300px; width: 1400px; margin: auto;}
+#scuole{height: 300px; width: 1400px; margin: auto; margin-bottom: 100px;}
 #linkscuola{height: 3px; width: 3px; margin: auto;}
 #sassari {text-align: center; position: relative;height: 300px;width: 300px; margin: auto;}
 #azuni {text-align: center; position: relative; height: 300px;width: 300px; margin: auto;}
@@ -41,60 +61,44 @@ cite {margin: 0px; text-align: center; color: black !important; position: relati
 #germania2 {text-align: center; position: relative; height: 300px; width: 300px; margin: auto;}
 img.fotografia{align-content: center;}
 
-#channels {height: 50; width: 300px; left: 50px; bottom: -20px; position: relative;}
-#youtube {height: 50; width: 50px;}
-#instagram {height: 50; width: 50px;}
-#facebook {height: 50; width: 50px;}
-
-#formfooter{position: relative; width: 900px; height: 100px; left: 0px; margin: auto; z-index: -100PX;}
-#formcaselle {position: relative; right: 0px; align-content: right;}
-#fname   {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
-#lname   {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
-#mail    {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat';}
-#subject {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat'; top: 19px; position: relative;}
-#submit  {width: 150px; height: 50px; background-color: #201CA4; color: white; font-family: 'montserrat'; border-radius: 10%;}
-
 ---------------------------------------------
 ESIBIZIONI
 
-#esibizioneA {height: 200px !important; align-content: center; margin-bottom: 100px;}
-#esibizioneB {height: 200px !important; align-content: center; margin-bottom: 100px;}
-#esibizioneC {height: 200px !important; align-content: center; margin-bottom: 100px;}
-#esibizioneD {height: 200px !important; align-content: center; margin-bottom: 100px;}
-#esibizioneE {height: 200px !important; align-content: center; margin-bottom: 100px;}
+#esibizioneA {height: 300px !important; align-content: center; margin-bottom: 100px; margin-top: 100px;}
+#esibizioneB {height: 300px !important; align-content: center; margin-bottom: 100px;}
+#esibizioneC {height: 300px !important; align-content: center; margin-bottom: 100px;}
+#esibizioneD {height: 300px !important; align-content: center; margin-bottom: 100px;}
+#esibizioneE {height: 300px !important; align-content: center; margin-bottom: 100px;}
 
-#titoloA {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 20PX; text-align: center;}
-#titoloB {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 20PX; text-align: center;}
-#titoloC {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 20PX; text-align: center;}
-#titoloD {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 20PX; text-align: center;}
-#titoloE {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 20PX; text-align: center;}
+#titoloA {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 30PX; text-align: center; margin-top: 100px; font-weight: bold;}
+#titoloB {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 30PX; text-align: center; margin-top: 100px; font-weight: bold;}
+#titoloC {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 30PX; text-align: center; margin-top: 100px; font-weight: bold;}
+#titoloD {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 30PX; text-align: center; margin-top: 100px; font-weight: bold;}
+#titoloE {margin: auto; color: #089FA4; font-family: 'montserrat'; font-size: 30PX; text-align: center; margin-top: 100px; font-weight: bold;}
 
-#bolle {height: 200px; width: 200px; opacity: 0.5; position: center;}
+#bolle {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px;}
 #bolle:hover {opacity: 1; height: 300px; width: 300px;} 
 
-#bollo {height: 200px; width: 200px; opacity: 0.5;}
+#bollo {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px;}
 #bollo:hover {opacity: 1; height: 300px; width: 300px;} 
 
-#bollu {height: 200px; width: 200px; opacity: 0.5;}
+#bollu {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px;}
 #bollu:hover {opacity: 1; height: 300px; width: 300px;} 
 
-#bolli {height: 200px; width: 200px; opacity: 0.5;}
+#bolli {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px;}
 #bolli:hover {opacity: 1; height: 300px; width: 300px;}
 
-#bolla {height: 200px; width: 200px; opacity: 0.5;}
+#bolla {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px;}
 #bolla:hover {opacity: 1; height: 300px; width: 300px;}
 
 ---------------------------------------------
 ABOUT ME
 
-#aboutme {height: 600px;}
+#aboutme {height: 900px; margin-bottom: 100px;}
 
-#NOTA1{height: 100px; width: 100px; position: relative; bottom: 100px; z-index: 1; display: block;}
-#NOTA2{height: 100px; width: 100px;position: relative; top: 100px; right: 10px; z-index: 1; display: block; margin-right: auto; margin-left: auto;}
-#NOTA3{height: 100px; width: 100px;position: relative; top: 100px; z-index: 1; display: block;}
-#NOTA4{height: 100px; width: 100px;position: relative; top: 100px; z-index: 1; display: block;}
+#NOTA2{height: 100px; width: 100px;position: relative; top: 150px; right: 10px; z-index: -1; display: block; margin-right: auto; margin-left: auto;}
 
-#chisono {text-align: justify; font-size: 30px; width: 800px; margin-bottom: 100px !important; align-content: justify; color: black; position: relative; top: 0px; margin: auto; font-family: 'montserrat';}
+#chisono {text-align: justify; font-size: 30px; width: 800px; margin-bottom: 300px !important; align-content: justify; color: black; position: relative; top: 250px; margin: auto; font-family: 'montserrat';}
 
 #homeimage {z-index: -1; display: block; opacity: 1; height: auto; position: relative; top: 100px; margin-top: 10px !important; width: 700px; margin-left: auto; margin-right: auto;}
 
@@ -115,9 +119,6 @@ ABOUT ME
 
  
 
-h1 {text-align: center !important; text-decoration: none;  color: white; font-family: 'montserrat'; font-size: 100PX; position: relative; height: 100px; margin-bottom: 80px; padding top:80px;}
-
-.content{position: relative; text-align: justify; margin-left: 200px; bottom: 400px;}
 
 
 
@@ -125,17 +126,17 @@ h1 {text-align: center !important; text-decoration: none;  color: white; font-fa
 
 
 
- #instagram:hover {height: 40px; width: 40px;}
- #youtube:hover {height: 60px; width: 60px;}
 
 
 
 
- h4{position: relative; top: -200px; right: 550px; bottom: 700px; height: 300px; width: 300px; opacity: 0.5; margin: 40px 40px 40px 0px;}
- h4:hover{color: yellow; position: relative; top: 500px; right: 400px; left: 400px; opacity: 0.5;}
+
+
+
+
  
 
-#musica a:visited {background-color: green;}
+
 
 
 
