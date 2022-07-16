@@ -102,16 +102,29 @@ ABOUT ME
 
 #homeimage {z-index: -1; display: block; opacity: 1; height: auto; position: relative; top: 100px; margin-top: 10px !important; width: 700px; margin-left: auto; margin-right: auto;}
 
+/*---------------------------------------------*/
+/*DOCUMENTAZIONE*/
+
+h2 {color: black; font-style: 'montserrat'; font-size: 30px; text-align: center !important; margin-left: auto; margin-right: auto; margin-left: 200px; margin-right: 200px; z-index: +1;}
+p {margin: auto; margin-left: 200px; margin-right: 200px; text-align: justify;}
+h3 {color: black; font-style: 'montserrat'; font-size: 20px; text-align: center !important; margin-left: auto; margin-right: auto; margin-left: 200px; margin-right: 200px;}
+
+#share 
+#albero {height: 50px; width: 50px;}
+
+img.fotografiaa{align-content: center; width: 200px; margin: 2%;}
 
 
 
+/*---------------------------------------------*/
+/*CONCERTI*/
 
+title {color: black; font-size: 100px; z-index: +1; font-family: 'montserrat'}
 
+#concertoA {height: 200px; width: 200px; background-color: blue; float: left; margin-right: auto; margin-left: auto; text-align: center; position: center; display: inline-block;}
+#concertoB {height: 200px; width: 200px; background-color: green; float: left; margin-right: auto; margin-left: auto; text-align: center; position: center; display: inline-block;}
 
-
-
-
-
+#concerto {height: 200px; position: relative; width: 1189px;}
 
 
 
