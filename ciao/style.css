@@ -121,10 +121,11 @@ img.fotografiaa{align-content: center; width: 200px; margin: 2%;}
 
 title {color: black; font-size: 100px; z-index: +1; font-family: 'montserrat'}
 
-#concertoA {height: 200px; width: 200px; background-color: blue; float: left; margin-right: auto; margin-left: auto; text-align: center; position: center; display: inline-block;}
-#concertoB {height: 200px; width: 200px; background-color: green; float: left; margin-right: auto; margin-left: auto; text-align: center; position: center; display: inline-block;}
+#concertoA {height: 200px; width: 200px; background-color: blue; float: left; margin-right: 50.5px; margin-left: 344px; }
+#concertoB {height: 200px; width: 200px; background-color: green; float: left; margin-right: 344px; margin-left: 50.5px; }
 
 #concerto {height: 200px; position: relative; width: 1189px;}
+#formns {margin-top: 100px;}
 
 
 
