@@ -119,16 +119,14 @@ img.fotografiaa{align-content: center; width: 200px; margin: 2%;}
 /*---------------------------------------------*/
 /*CONCERTI*/
 
-title {color: black; font-size: 100px; z-index: +1; font-family: 'montserrat'}
+h2 {color: black; font-size: 100px; z-index: +1; font-family: 'montserrat'}
 
-#concertoA {height: 200px; width: 200px; background-color: blue; float: left; margin-right: 50.5px; margin-left: 344px; }
-#concertoB {height: 200px; width: 200px; background-color: green; float: left; margin-right: 344px; margin-left: 50.5px; }
+#CONCERTI {height: 200px; width: 200px; opacity: 0.5; display: block; margin-right: auto; margin-left: auto; margin-top: 50px; margin-bottom: 200px;}
+#CONCERTI:hover {opacity: 1; height: 300px; width: 300px;}
 
-#concerto {height: 200px; position: relative; width: 1189px;}
-#formns {margin-top: 100px;}
+#confermamail {margin-left: 20px; margin-right: 20px; font-size: 50px; font-family: 'montserrat'; margin-bottom: 300px; margin-top: 0px;text-align: center;} 
 
-
-.grecaptcha-badge {visibility: hidden;}
+#colorns {color: #089FA4; margin-top: 100px;}
  
 
 
