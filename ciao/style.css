@@ -132,11 +132,11 @@ img.fotografiaa{align-content: center; width: 200px; margin: 2%;}
 #lname2  {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat'; border-color: #201CA4; margin: 10px 10px 10px 10px;}
 #mail2   {width: 150px; height: 50px; color: #201CA4; font-family: 'montserrat'; border-color: #201CA4; margin: 10px 10px 10px 10px;}
 
-#sendfox {height: 100px; margin-bottom: 200px; margin-top: 200px; background-color: white; align-content: center;}
+#sendfox {height: 100px; margin-bottom: 200px; margin-top: 200px; background-color: white; text-align: center;}
 
 button {width: 150px; height: 50px; background-color: #201CA4; color: white; font-family: 'montserrat'; border-radius: 10%;}
 
-#formsendfox {margin-left:100px; margin-right:100px;}
+#formsendfox {margin-left: auto; margin-right: auto; text-align: center;}
 
 #newslettertitle {font-size: 50px; }
 
@@ -148,6 +148,18 @@ button {width: 150px; height: 50px; background-color: #201CA4; color: white; fon
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
